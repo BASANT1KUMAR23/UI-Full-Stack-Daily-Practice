@@ -1,0 +1,181 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 2fr 1fr 1fr;
+    background-color: #2874f0;
+    padding-top: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 150px;
+    padding-right: 80px;
+}
+
+.one{
+    color: white;
+    font-size: small;
+    padding: 0px 16px;
+}
+
+.kart{
+    font-size: x-large;
+    font-weight: bold;
+}
+.plus{
+    font-size: small;
+    font-style: italic;
+}
+.plus1{
+    color: yellow;
+    font-weight: bold;
+}
+.bi-star{
+    color: yellow;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    height: 36px;
+    font-size: 14px;
+    font-style: italic;
+    padding:0px 16px;
+    border: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.bi-search{
+    padding-left: 480px;
+    
+}
+
+.three{
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    padding-top: 9px;
+    margin: 0px;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    /* max-width: 108px; */
+    display: block;
+}
+
+.four{
+    color: white;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+.five{
+    color: white;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+.six{
+    color: white;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-div{
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    padding-top: 80px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-top: 1px solid black;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+ul{
+    color: #212121;
+    line-height: 22px;
+    display: table;
+}
+.first,img{
+    background-color: #f0f0f0;
+    padding-left: 30px;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+}
+.second{
+    padding-left: 10px;
+}
+
+.paisa{
+    color: #212121;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+strike{
+    color: gray;
+    font-size: large;
+}
+
+.off{
+    color: green;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.free{
+    padding: 5px;
+    font-size: large;
+    font-style: italic;
+}
+
+b{
+    font-weight: 400px;
+    font-size: x-large;
+}
+
+.offer{
+    color: green;
+    font-size: x-large;
+    font-weight: bold;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+    <style>
+        header,nav,main,aside,footer,div{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            text-align:center;
+        }
+        main{
+            height: 30px;
+        }
+        @media screen and (orientation:landscape){
+            body{
+                display: grid;
+                grid-template-columns: 2fr 8fr 2fr;
+            }
+        header{
+            grid-row:1;
+            grid-column: 1/4;
+        }
+        nav{
+            grid-row: 2;
+            grid-column: 1;
+        }
+        main{
+            grid-row: 2;
+            grid-column: 2;
+        }
+        aside{
+            grid-row: 2;
+            grid-column: 3;
+        }
+        footer{
+            grid-row: 3;
+            grid-column: 1/4;
+        }
+        }
+        @media screen and (orientation:portrait){
+            body{
+                display: grid;
+                grid-template-columns: 12fr;
+            }
+            header{
+                grid-row: 1;
+            }
+            nav{
+                grid-row: 2;
+            }
+            main{
+                grid-row: 3;
+            }
+            aside{
+                grid-row: 4;
+            }
+            footer{
+                grid-row: 5;
+            }
+        }
+        body{
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+   <div>
+    <nav>Navigation</nav>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.
+   </div>
+    <div>
+        <main>Main</main>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut beatae soluta ullam nesciunt sunt pariatur maxime quia accusantium obcaecati!
+    </div>
+   <div>
+    <aside>Aside</aside>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, delectus.
+   </div>
+    <footer>Footer</footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title> 
+    <style>
+        /* menu{
+            display: flex;
+            padding: 0px;
+            justify-content: space-between;
+        } */
+        details div{
+            width: 150px;
+            /* height: 200px; */
+            padding: 5px;
+            font-size: 20px;
+            border: 1px solid yellow;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        details{
+            width: 200px;
+            padding: 10px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+        .h{
+            font-size: 25px;
+            margin-left: 60px;
+            color: white;
+            border: 3px solid yellow;
+            background-color: black;
+            width: 90px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        @media screen and (orientation:landscape){
+           details div{
+            display: flex;
+
+           }
+        }
+        @media screen and (orientation:portrait){
+            details div{
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                margin-bottom: 10px;
+                
+            }
+        }
+        .h:hover{
+            background-color: red;
+        }
+        summary{
+            border: 3px solid yellow;
+            width: 160px;
+            margin-bottom: 10px;
+            font-size: 25px;
+            color: white;
+            background-color: black;
+        }
+        summary:hover{
+            background-color: blue;
+        }
+        div:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+   <nav>
+    <menu>
+        <div class="h">Home</div>
+
+        <details>
+            <summary>Electronics</summary>
+            <div>Televisions</div>
+            <div>Mobiles</div>
+            <div>Watches</div>
+        </details>
+        <details>
+            <summary>Footwear</summary>
+            <div>Boots</div>
+            <div>Shoes</div>
+            <div>Casuals</div>
+            <div>Sneakers</div>
+            
+        </details>
+    </menu>
+   </nav>
+</body>
+</html>
